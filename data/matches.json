@@ -1,0 +1,142 @@
+{
+  "schedule": {
+    "21": {
+      "date": "21 de Fevereiro",
+      "dayOfWeek": "Quinta",
+      "matches": [
+        {
+          "id": 1,
+          "time": "19:30",
+          "division": "1 DIVISÃO",
+          "home": "King Kuky",
+          "away": "Paulo",
+          "status": "scheduled"
+        },
+        {
+          "id": 2,
+          "time": "20:45",
+          "division": "1 DIVISÃO",
+          "home": "Rafa",
+          "away": "Astro",
+          "status": "scheduled"
+        },
+        {
+          "id": 3,
+          "time": "19:30",
+          "division": "2 DIVISÃO",
+          "home": "Fúria",
+          "away": "Fábio",
+          "status": "scheduled"
+        },
+        {
+          "id": 4,
+          "time": "20:45",
+          "division": "2 DIVISÃO",
+          "home": "Júnior",
+          "away": "Felisberto",
+          "status": "scheduled"
+        },
+        {
+          "id": 5,
+          "time": "22:00",
+          "division": "2 DIVISÃO",
+          "home": "Herman",
+          "away": "Fidel",
+          "status": "scheduled"
+        }
+      ]
+    },
+    "22": {
+      "date": "22 de Fevereiro",
+      "dayOfWeek": "Sexta",
+      "matches": [
+        {
+          "id": 6,
+          "time": "19:30",
+          "division": "1 DIVISÃO",
+          "home": "Paridade",
+          "away": "King Kuky",
+          "status": "scheduled"
+        },
+        {
+          "id": 7,
+          "time": "20:45",
+          "division": "1 DIVISÃO",
+          "home": "Astro",
+          "away": "Rafa",
+          "status": "scheduled"
+        },
+        {
+          "id": 8,
+          "time": "19:30",
+          "division": "2 DIVISÃO",
+          "home": "Fidel",
+          "away": "Fúria",
+          "status": "scheduled"
+        },
+        {
+          "id": 9,
+          "time": "20:45",
+          "division": "2 DIVISÃO",
+          "home": "Felisberto",
+          "away": "Herman",
+          "status": "scheduled"
+        },
+        {
+          "id": 10,
+          "time": "22:00",
+          "division": "2 DIVISÃO",
+          "home": "Fábio",
+          "away": "Júnior",
+          "status": "scheduled"
+        }
+      ]
+    },
+    "23": {
+      "date": "23 de Fevereiro",
+      "dayOfWeek": "Sábado",
+      "matches": [
+        {
+          "id": 11,
+          "time": "17:00",
+          "division": "1 DIVISÃO",
+          "home": "Paulo",
+          "away": "Paridade",
+          "status": "scheduled"
+        },
+        {
+          "id": 12,
+          "time": "18:30",
+          "division": "1 DIVISÃO",
+          "home": "Rafa",
+          "away": "King Kuky",
+          "status": "scheduled"
+        },
+        {
+          "id": 13,
+          "time": "17:00",
+          "division": "2 DIVISÃO",
+          "home": "Júnior",
+          "away": "Fidel",
+          "status": "scheduled"
+        },
+        {
+          "id": 14,
+          "time": "18:30",
+          "division": "2 DIVISÃO",
+          "home": "Herman",
+          "away": "Fábio",
+          "status": "scheduled"
+        },
+        {
+          "id": 15,
+          "time": "20:00",
+          "division": "2 DIVISÃO",
+          "home": "Fúria",
+          "away": "Felisberto",
+          "status": "scheduled"
+        }
+      ]
+    }
+  }
+}

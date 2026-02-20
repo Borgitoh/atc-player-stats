@@ -1,0 +1,152 @@
+{
+  "league": {
+    "name": "FC26 - ATC",
+    "season": 2024
+  },
+  "divisions": [
+    {
+      "id": 1,
+      "name": "1 DIVISÃO",
+      "players": [
+        {
+          "position": 1,
+          "name": "King Kuky",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 2,
+          "name": "Rafa",
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 3,
+          "name": "Paridade",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 4,
+          "name": "Astro",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 5,
+          "name": "Paulo",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "2 DIVISÃO",
+      "players": [
+        {
+          "position": 1,
+          "name": "Fúria",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 2,
+          "name": "Júnior",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 3,
+          "name": "Herman",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 4,
+          "name": "Fidel",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 5,
+          "name": "Felisberto",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        },
+        {
+          "position": 6,
+          "name": "Fábio",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0,
+          "points": 0
+        }
+      ]
+    }
+  ]
+}
