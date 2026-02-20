@@ -2,7 +2,7 @@
   "schedule": {
     "21": {
       "date": "21 de Fevereiro",
-      "dayOfWeek": "Quinta",
+      "dayOfWeek": "Sabado",
       "matches": [
         {
           "id": 1,
@@ -48,7 +48,7 @@
     },
     "22": {
       "date": "22 de Fevereiro",
-      "dayOfWeek": "Sexta",
+      "dayOfWeek": "Domingo",
       "matches": [
         {
           "id": 6,
@@ -94,7 +94,7 @@
     },
     "23": {
       "date": "23 de Fevereiro",
-      "dayOfWeek": "Sábado",
+      "dayOfWeek": "Segunda",
       "matches": [
         {
           "id": 11,

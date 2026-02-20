@@ -40,7 +40,7 @@ Aplicação profissional de gerenciamento de liga de futebol com sistema de clas
   "schedule": {
     "21": {
       "date": "21 de Fevereiro",
-      "dayOfWeek": "Quinta",
+      "dayOfWeek": "Sabado",
       "matches": [
         {
           "id": 1,
