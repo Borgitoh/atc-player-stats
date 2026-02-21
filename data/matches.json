@@ -6,34 +6,18 @@
       "matches": [
         {
           "id": 1,
-          "time": "00:00",
-          "division": "1 DIVISÃO",
-          "home": "King Kuky",
-          "away": "Paulo",
-          "status": "scheduled"
-        },
-        {
-          "id": 2,
-          "time": "0:30",
-          "division": "1 DIVISÃO",
-          "home": "Rafa",
-          "away": "Astro",
-          "status": "scheduled"
-        },
-        {
-          "id": 4,
           "time": "23:00",
           "division": "2 DIVISÃO",
-          "home": "Júnior",
-          "away": "Felisberto",
+          "home": "Júnior (Juventus)",
+          "away": "Felisberto (Atlético de Madrid)",
           "status": "scheduled"
-        },
+        }, 
         {
-          "id": 5,
-          "time": "01:00",
-          "division": "2 DIVISÃO",
-          "home": "Herman",
-          "away": "Fidel",
+          "id": 2,
+          "time": "23:30",
+          "division": "1 DIVISÃO",
+          "home": "Paridade (Chelsea)",
+          "away": "King Kuky (PSG)",
           "status": "scheduled"
         }
       ]
@@ -42,36 +26,28 @@
       "date": "22 de Fevereiro",
       "dayOfWeek": "Domingo",
       "matches": [
-        {
-          "id": 6,
-          "time": "23:00",
-          "division": "1 DIVISÃO",
-          "home": "Paridade",
-          "away": "King Kuky",
-          "status": "scheduled"
-        },
-        {
-          "id": 7,
-          "time": "23:30",
-          "division": "1 DIVISÃO",
-          "home": "Astro",
-          "away": "Rafa",
-          "status": "scheduled"
-        },
-        {
-          "id": 9,
+       {
+          "id": 3,
           "time": "00:00",
-          "division": "2 DIVISÃO",
-          "home": "Felisberto",
-          "away": "Herman",
+          "division": "1 DIVISÃO",
+          "home": "Rafa (Arsenal)",
+          "away": "Astro(Manchester City)",
           "status": "scheduled"
         },
         {
           "id": 10,
           "time": "00:30",
           "division": "2 DIVISÃO",
-          "home": "Papaleguas",
-          "away": "Júnior",
+          "home": "Papaleguas (Napoli)",
+          "away": "Júnior (Juventus)",
+          "status": "scheduled"
+        },
+        {
+          "id": 9,
+          "time": "01:00",
+          "division": "2 DIVISÃO",
+          "home": "Fidel (Dortmund)",
+          "away": "Herman   (Inter Milan)",
           "status": "scheduled"
         }
       ]
@@ -82,34 +58,33 @@
       "matches": [
         {
           "id": 11,
-          "time": "00:00",
-          "division": "1 DIVISÃO",
-          "home": "Paulo",
-          "away": "Paridade",
-          "status": "scheduled"
-        },
-        {
-          "id": 12,
           "time": "23:00",
           "division": "1 DIVISÃO",
-          "home": "Rafa",
-          "away": "King Kuky",
+          "home": "Rafa (Arsenal)",
+          "away": "King Kuky (PSG)",
+          "status": "scheduled"
+        }, 
+        {
+          "id": 12,
+          "time": "23:30",
+          "division": "2 DIVISÃO",
+          "home": "Júnior (Juventus)",
+          "away": "Fidel (Dortmund)",
           "status": "scheduled"
         },
         {
           "id": 13,
-          "time": "23:30",
-          "division": "2 DIVISÃO",
-          "home": "Júnior",
-          "away": "Fidel",
+          "time": "00:00",
+          "division": "1 DIVISÃO",
+          "home": "Paulo (Liverpool)",
+          "away": "Paridade (Chelsea)",
           "status": "scheduled"
-        },
-        {
+        }, {
           "id": 14,
-          "time": "00:030",
+          "time": "01:00",
           "division": "2 DIVISÃO",
-          "home": "Herman",
-          "away": "Papaleguas",
+          "home": "Herman (Inter Milan)",
+          "away": "Papaleguas (Napoli)",
           "status": "scheduled"
         }
       ]
