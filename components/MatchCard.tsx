@@ -29,21 +29,30 @@ export function MatchCard({
 
   return (
     <div
-      className={`${divisionColor} rounded-lg bg-gradient-to-r from-[#1a1f3a] to-[#0f1825] p-4 backdrop-blur-sm border border-[#2d3748] shadow-lg hover:shadow-xl hover:shadow-[#00d9ff]/20 transition-all duration-300`}
+      className={`${divisionColor} w-full max-w-2xl rounded-lg bg-gradient-to-r from-[#1a1f3a] to-[#0f1825] p-5 backdrop-blur-sm border border-[#2d3748] shadow-lg hover:shadow-xl hover:shadow-[#00d9ff]/20 transition-all duration-300`}
     >
       <div className="flex items-center justify-between">
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
+          
+          {/* DIVISION */}
           <div className="flex items-center gap-2 mb-2">
             <Trophy className="w-4 h-4 text-[#fbbf24]" />
             <span className="text-xs font-semibold text-[#fbbf24] uppercase tracking-wider">
               {division}
             </span>
           </div>
-          <div className="text-sm text-[#94a3b8] mb-3">{time}</div>
 
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex-1">
-              <p className="font-bold text-white text-sm md:text-base truncate">
+          {/* TIME */}
+          <div className="text-sm text-[#94a3b8] mb-4">
+            {time}
+          </div>
+
+          {/* TEAMS */}
+          <div className="flex items-center justify-between gap-6">
+            
+            {/* HOME */}
+            <div className="flex-1 min-w-0">
+              <p className="font-bold text-white text-sm md:text-base break-words">
                 {home}
               </p>
               {status === 'finished' && (
@@ -53,27 +62,33 @@ export function MatchCard({
               )}
             </div>
 
-            <div className="flex flex-col items-center gap-1">
+            {/* STATUS */}
+            <div className="flex flex-col items-center gap-1 shrink-0">
               {status === 'scheduled' && (
-                <div className="text-center">
-                  <span className="inline-block px-2 py-1 text-xs font-semibold bg-[#1e40af] text-white rounded">
-                    vs
+                <span className="px-3 py-1 text-xs font-semibold bg-[#1e40af] text-white rounded">
+                  vs
+                </span>
+              )}
+
+              {status === 'live' && (
+                <div className="flex items-center gap-1">
+                  <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+                  <span className="text-xs font-semibold text-red-400">
+                    LIVE
                   </span>
                 </div>
               )}
-              {status === 'live' && (
-                <div className="flex items-center gap-1">
-                  <span className="inline-block w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
-                  <span className="text-xs font-semibold text-red-400">LIVE</span>
-                </div>
-              )}
+
               {status === 'finished' && (
-                <p className="text-[#94a3b8] text-xs font-semibold">Final</p>
+                <p className="text-[#94a3b8] text-xs font-semibold">
+                  Final
+                </p>
               )}
             </div>
 
-            <div className="flex-1 text-right">
-              <p className="font-bold text-white text-sm md:text-base truncate">
+            {/* AWAY */}
+            <div className="flex-1 min-w-0 text-right">
+              <p className="font-bold text-white text-sm md:text-base break-words">
                 {away}
               </p>
               {status === 'finished' && (
@@ -82,6 +97,7 @@ export function MatchCard({
                 </p>
               )}
             </div>
+
           </div>
         </div>
       </div>
