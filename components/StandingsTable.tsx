@@ -1,8 +1,10 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 
 interface Player {
+  id: string;
   position: number;
   name: string;
   played: number;
@@ -46,18 +48,19 @@ export default function StandingsTable({ division, players }: StandingsTableProp
           {/* Table Rows */}
           <div>
             {players.map((player, index) => (
-              <div
+              <Link
                 key={player.position}
-                className={`grid grid-cols-8 gap-4 px-4 py-4 border-t border-accent/20 items-center transition-colors ${
+                href={`/player/${player.id}`}
+                className={`grid grid-cols-8 gap-4 px-4 py-4 border-t border-accent/20 items-center transition-all cursor-pointer ${
                   index % 2 === 0 ? 'bg-primary/60' : 'bg-primary/40'
-                } hover:bg-primary/70`}
+                } hover:bg-primary/80 hover:shadow-lg hover:shadow-accent/20`}
               >
                 {/* Position */}
                 <div className="font-bold text-accent text-lg md:text-xl">{player.position}</div>
 
                 {/* Player Name */}
                 <div className="col-span-2">
-                  <div className="text-white font-semibold text-sm md:text-base text-balance">
+                  <div className="text-white font-semibold text-sm md:text-base text-balance hover:text-accent transition-colors">
                     {player.name}
                   </div>
                 </div>
@@ -86,7 +89,7 @@ export default function StandingsTable({ division, players }: StandingsTableProp
                 <div className="text-right font-bold text-accent text-lg">
                   {player.points}
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

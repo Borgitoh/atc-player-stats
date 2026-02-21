@@ -3,6 +3,8 @@ import Link from 'next/link';
 import LeagueHeader from '@/components/LeagueHeader';
 import StandingsTable from '@/components/StandingsTable';
 import { UpcomingMatches } from '@/components/UpcomingMatches';
+import { PlayerTip } from '@/components/PlayerTip';
+import { PlayerSearch } from '@/components/PlayerSearch';
 import playersData from '@/data/players.json';
 import { Calendar } from 'lucide-react';
 
@@ -26,6 +28,15 @@ export default function Home() {
 
         {/* Upcoming Matches */}
         <UpcomingMatches />
+
+        {/* Player Search and Tip */}
+        <div className="max-w-6xl mx-auto mb-8 space-y-4">
+          <div>
+            <p className="text-sm font-medium text-[#94a3b8] mb-2">Buscar Jogador</p>
+            <PlayerSearch />
+          </div>
+          <PlayerTip />
+        </div>
 
         {/* Standings Tables */}
         <div className="max-w-6xl mx-auto">

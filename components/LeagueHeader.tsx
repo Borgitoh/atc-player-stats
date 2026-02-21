@@ -14,10 +14,9 @@ export default function LeagueHeader() {
         <h1 className="text-5xl md:text-7xl font-black text-white mb-2 text-balance">
           ATC - AUTHENTIC ESPORTS
         </h1>
-        <h2 className="text-5xl md:text-7xl font-black text-white mb-2 text-balance">
-
+        <h1 className="text-5xl md:text-7xl font-black text-white mb-2 text-balance">
           FC<span className="text-accent">26</span>
-        </h2>
+        </h1>
         <p className="text-base md:text-lg text-muted-foreground font-semibold tracking-wider">
           OFFICIAL LEAGUE STANDINGS
         </p>
