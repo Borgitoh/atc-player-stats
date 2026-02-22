@@ -14,14 +14,14 @@
           "position": 1,
           "name": "Paulo",
           "division": 1,
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 3,
-          "goalDifference": 0,
-          "points": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 6,
+          "goalDifference": 6,
+          "points": 6,
           "bio": "Defensor sólido e confiável. Grande capacidade de leitura de jogo.",
           "stats": {
             "winRate": "-",
@@ -68,13 +68,13 @@
           "position": 3,
           "name": "Rafa",
           "division": 1,
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 2,
+          "losses": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 8,
+          "goalDifference": -3,
           "points": 1,
           "bio": "Jogador versátil e criativo. Traz dinamismo e inovação ao jogo.",
           "stats": {
@@ -150,8 +150,8 @@
           "position": 2,
           "name": "Júnior",
           "division": 2,
-          "played": 1,
-          "wins": 0,
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
           "goalsFor": 2,
@@ -171,7 +171,10 @@
               "opponent": "Filisberto",
               "result": "2-2",
               "description": "Jogo de recuperação com atuação brilhante",
-              "highlights": ["5 bolas recuperadas", "1 gol marcado"]
+              "highlights": [
+                "5 bolas recuperadas",
+                "1 gol marcado"
+              ]
             }
           ]
         },
@@ -196,7 +199,7 @@
           },
           "bestMatches": []
         },
-         {
+        {
           "id": "player-11",
           "position": 4,
           "name": "Papaleguas",
@@ -222,7 +225,7 @@
           "position": 5,
           "name": "Felisberto",
           "division": 2,
-          "played": 0,
+          "played": 2,
           "wins": 0,
           "draws": 1,
           "losses": 0,
@@ -243,11 +246,13 @@
               "opponent": "Júnior",
               "result": "2-2",
               "description": "Estreia devastadora",
-              "highlights": ["Todas as formas de gol"]
+              "highlights": [
+                "Todas as formas de gol"
+              ]
             }
           ]
         },
-       {
+        {
           "id": "player-8",
           "position": 6,
           "name": "Herman",
