@@ -10,8 +10,29 @@
       "color": "#ec4899",
       "players": [
         {
-          "id": "player-1",
+          "id": "player-5",
           "position": 1,
+          "name": "Paulo",
+          "division": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 3,
+          "goalDifference": 0,
+          "points": 3,
+          "bio": "Defensor sólido e confiável. Grande capacidade de leitura de jogo.",
+          "stats": {
+            "winRate": "-",
+            "avgGoalsPerMatch": "-",
+            "avgGoalsAgainst": "-"
+          },
+          "bestMatches": []
+        },
+        {
+          "id": "player-1",
+          "position": 2,
           "name": "King Kuky",
           "division": 1,
           "played": 1,
@@ -44,7 +65,7 @@
         },
         {
           "id": "player-2",
-          "position": 2,
+          "position": 3,
           "name": "Rafa",
           "division": 1,
           "played": 1,
@@ -80,13 +101,13 @@
           "position": 3,
           "name": "Paridade",
           "division": 1,
-          "played": 0,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
+          "losses": 1,
+          "goalsFor": 3,
           "goalsAgainst": 0,
-          "goalDifference": 0,
+          "goalDifference": 6,
           "points": 0,
           "bio": "Estrela em ascensão com muito potencial. Rápido aprendizado e grande dedição.",
           "stats": {
@@ -116,27 +137,6 @@
             "avgGoalsAgainst": "-"
           },
           "bestMatches": []
-        },
-        {
-          "id": "player-5",
-          "position": 5,
-          "name": "Paulo",
-          "division": 1,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 0,
-          "bio": "Defensor sólido e confiável. Grande capacidade de leitura de jogo.",
-          "stats": {
-            "winRate": "-",
-            "avgGoalsPerMatch": "-",
-            "avgGoalsAgainst": "-"
-          },
-          "bestMatches": []
         }
       ]
     },
@@ -150,36 +150,45 @@
           "position": 2,
           "name": "Júnior",
           "division": 2,
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 0,
+          "points": 4,
           "bio": "Meio-campista versátil com grande capacidade de recoveria bola.",
           "stats": {
             "winRate": "-",
             "avgGoalsPerMatch": "-",
             "avgGoalsAgainst": "-"
           },
-          "bestMatches": []
+          "bestMatches": [
+            {
+              "id": "m9",
+              "date": "2024-02-22",
+              "opponent": "Filisberto",
+              "result": "2-2",
+              "description": "Jogo de recuperação com atuação brilhante",
+              "highlights": ["5 bolas recuperadas", "1 gol marcado"]
+            }
+          ]
         },
         {
-          "id": "player-8",
+          "id": "player-9",
           "position": 3,
-          "name": "Herman",
+          "name": "Fidel",
           "division": 2,
-          "played": 0,
-          "wins": 0,
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 0,
+          "goalsFor": 5,
           "goalsAgainst": 0,
           "goalDifference": 0,
-          "points": 0,
-          "bio": "Zagueiro experiente e liderança natural. Capitão invisível em campo.",
+          "points": 3,
+          "bio": "Atacante rápido e técnico. Especialista em aproveitar espaços.",
           "stats": {
             "winRate": "-",
             "avgGoalsPerMatch": "-",
@@ -187,20 +196,20 @@
           },
           "bestMatches": []
         },
-        {
-          "id": "player-9",
+         {
+          "id": "player-11",
           "position": 4,
-          "name": "Fidel",
+          "name": "Papaleguas",
           "division": 2,
-          "played": 0,
-          "wins": 0,
+          "played": 2,
+          "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "losses": 1,
+          "goalsFor": 8,
+          "goalsAgainst": 7,
           "goalDifference": 0,
-          "points": 0,
-          "bio": "Atacante rápido e técnico. Especialista em aproveitar espaços.",
+          "points": 3,
+          "bio": "Atacante explosivo com potência impressionante. Sempre pronto para surpreender.",
           "stats": {
             "winRate": "-",
             "avgGoalsPerMatch": "-",
@@ -215,34 +224,43 @@
           "division": 2,
           "played": 0,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
           "goalDifference": 0,
-          "points": 0,
+          "points": 1,
           "bio": "Goleiro confiável com reflexos aguçados. Base sólida da defesa.",
           "stats": {
             "winRate": "-",
             "avgGoalsPerMatch": "-",
             "avgGoalsAgainst": "-"
           },
-          "bestMatches": [ ]
+          "bestMatches": [
+            {
+              "id": "m8",
+              "date": "2024-02-21",
+              "opponent": "Júnior",
+              "result": "2-2",
+              "description": "Estreia devastadora",
+              "highlights": ["Todas as formas de gol"]
+            }
+          ]
         },
-        {
-          "id": "player-11",
+       {
+          "id": "player-8",
           "position": 6,
-          "name": "Papaleguas",
+          "name": "Herman",
           "division": 2,
-          "played": 0,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsFor": 0,
+          "losses": 2,
+          "goalsFor": 3,
           "goalsAgainst": 0,
-          "goalDifference": 0,
+          "goalDifference": 8,
           "points": 0,
-          "bio": "Atacante explosivo com potência impressionante. Sempre pronto para surpreender.",
+          "bio": "Zagueiro experiente e liderança natural. Capitão invisível em campo.",
           "stats": {
             "winRate": "-",
             "avgGoalsPerMatch": "-",
