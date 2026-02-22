@@ -8,9 +8,10 @@
           "id": 1,
           "time": "23:00",
           "division": "2 DIVISÃO",
-          "home": "Júnior (Juventus)",
-          "away": "Felisberto (Atlético de Madrid)",
-          "status": "scheduled"
+          "home": "Júnior (Juventus)  ",
+          "away": "Felisberto (Atlético de Madrid) ",
+          "status": "finished",
+          "homeScore": "2-2"
         }, 
         {
           "id": 2,
@@ -33,7 +34,8 @@
           "division": "2 DIVISÃO",
           "home": "Papaleguas (Napoli)",
           "away": "Júnior (Juventus)",
-          "status": "scheduled"
+          "status": "finished",
+          "awayScore": "3-4"
         },
         {
           "id": 10,
@@ -41,7 +43,8 @@
           "division": "2 DIVISÃO",
           "home": "Fidel (Dortmund)",
           "away": "Herman   (Inter Milan)",
-          "status": "scheduled"
+          "status": "finished",
+           "homeScore": "5-0"
         },
         {
           "id": 9,
@@ -50,6 +53,15 @@
           "home": "Rafa (Arsenal)",
           "away": "Astro(Manchester City)",
           "status": "scheduled"
+        },
+         {
+          "id": 14,
+          "time": "01:00",
+          "division": "2 DIVISÃO",
+          "home": "Herman (Inter Milan)",
+          "away": "Papaleguas (Napoli)",
+          "status": "finished",
+          "homeScore": "3-5"
         }
       ]
     },
@@ -62,8 +74,9 @@
           "time": "23:00",
           "division": "1 DIVISÃO",
           "home": "Rafa (Arsenal)",
-          "away": "King Kuky (PSG)",
-          "status": "scheduled"
+          "away": "Paulo (Liverpool)",
+          "status": "finished",
+          "homeScore": "3-6"
         }, 
         {
           "id": 12,
@@ -79,14 +92,8 @@
           "division": "1 DIVISÃO",
           "home": "Paulo (Liverpool)",
           "away": "Paridade (Chelsea)",
-          "status": "scheduled"
-        }, {
-          "id": 14,
-          "time": "01:00",
-          "division": "2 DIVISÃO",
-          "home": "Herman (Inter Milan)",
-          "away": "Papaleguas (Napoli)",
-          "status": "scheduled"
+          "status": "finished",
+          "homeScore": "6-3"
         }
       ]
     }
