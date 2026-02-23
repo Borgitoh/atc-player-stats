@@ -121,7 +121,7 @@
       "players": [
         {
           "id": "player-7",
-          "position": 2,
+          "position": 1,
           "name": "Júnior",
           "division": 2,
           "played": 2,
@@ -142,7 +142,7 @@
         },
         {
           "id": "player-9",
-          "position": 3,
+          "position": 2,
           "name": "Fidel",
           "division": 2,
           "played": 1,
@@ -163,7 +163,7 @@
         },
         {
           "id": "player-11",
-          "position": 4,
+          "position": 3,
           "name": "Papaleguas",
           "division": 2,
           "played": 2,
@@ -184,7 +184,7 @@
         },
         {
           "id": "player-10",
-          "position": 5,
+          "position": 4,
           "name": "Felisberto",
           "division": 2,
           "played": 1,
@@ -205,7 +205,7 @@
         },
         {
           "id": "player-8",
-          "position": 6,
+          "position": 5,
           "name": "Herman",
           "division": 2,
           "played": 2,
