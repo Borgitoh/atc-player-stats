@@ -163,6 +163,7 @@
         {
           "name": "Papaleguas",
           "played": 3,
+           "position": 3,
           "wins": 1,
           "draws": 0,
           "losses": 2,
