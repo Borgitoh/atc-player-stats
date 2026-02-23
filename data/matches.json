@@ -144,7 +144,8 @@
           "division": "1 DIVISÃO",
           "home": "Astro(Manchester City)",
           "away": "Paulo (Liverpool)",
-          "status": "scheduled"
+          "status": "finished",
+          "homeScore": "2-6"
         },
          {
           "id": 13,
@@ -152,7 +153,8 @@
           "division": "1 DIVISÃO",
           "home": "Astro(Manchester City)",
           "away": "Paridade (Chelsea)",
-          "status": "scheduled"
+          "status": "finished",
+          "homeScore": "3-4"
         }
         
       ]
