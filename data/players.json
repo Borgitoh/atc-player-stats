@@ -11,17 +11,16 @@
       "players": [
         {
           "id": "player-5",
-          "position": 1,
           "name": "Paulo",
-          "division": 1,
-          "played": 3,
-          "wins": 3,
+          "position": 1,
+          "played": 4,
+          "wins": 4,
           "draws": 0,
           "losses": 0,
-          "goalsFor": 18,
+          "goalsFor": 24,
           "goalsAgainst": 8,
-          "goalDifference": 10,
-          "points": 9,
+          "goalDifference": 16,
+          "points": 12,
           "bio": "Defensor sólido e confiável. Grande capacidade de leitura de jogo.",
           "stats": {
             "winRate": "-",
@@ -31,29 +30,8 @@
           "bestMatches": []
         },
         {
-          "id": "player-1",
-          "position": 2,
-          "name": "King Kuky",
-          "division": 1,
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goalsFor": 6,
-          "goalsAgainst": 3,
-          "goalDifference": 3,
-          "points": 4,
-          "bio": "Um dos maiores competidores da 1ª Divisão. Conhecido pela sua determinação e espírito vencedor.",
-          "stats": {
-            "winRate": "0%",
-            "avgGoalsPerMatch": "0.0",
-            "avgGoalsAgainst": "0.0"
-          },
-          "bestMatches": []
-        },
-        {
           "id": "player-2",
-          "position": 3,
+          "position": 2,
           "name": "Rafa",
           "division": 1,
           "played": 3,
@@ -65,6 +43,26 @@
           "goalDifference": 0,
           "points": 4,
           "bio": "Jogador versátil e criativo. Traz dinamismo e inovação ao jogo.",
+          "stats": {
+            "winRate": "0%",
+            "avgGoalsPerMatch": "0.0",
+            "avgGoalsAgainst": "0.0"
+          },
+          "bestMatches": []
+        },
+        {
+          "id": "player-1",
+          "position": 3,
+          "name": "King Kuky",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsFor": 6,
+          "goalsAgainst": 9,
+          "goalDifference": -3,
+          "points": 4,
+          "bio": "Um dos maiores competidores da 1ª Divisão. Conhecido pela sua determinação e espírito vencedor.",
           "stats": {
             "winRate": "0%",
             "avgGoalsPerMatch": "0.0",
