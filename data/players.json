@@ -120,8 +120,28 @@
       "color": "#06b6d4",
       "players": [
         {
+           "position": 1,
+          "id": "player-9",
+          "name": "Fidel",
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsFor": 8,
+          "goalsAgainst": 2,
+          "goalDifference": 6,
+          "points": 6,
+          "bio": "Atacante rápido e técnico. Especialista em aproveitar espaços.",
+          "stats": {
+            "winRate": "-",
+            "avgGoalsPerMatch": "-",
+            "avgGoalsAgainst": "-"
+          },
+          "bestMatches": []
+        },
+        {
           "id": "player-7",
-          "position": 1,
+          "position": 2,
           "name": "Júnior",
           "division": 2,
           "played": 2,
@@ -141,37 +161,13 @@
           "bestMatches": []
         },
         {
-          "id": "player-9",
-          "position": 2,
-          "name": "Fidel",
-          "division": 2,
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsFor": 5,
-          "goalsAgainst": 0,
-          "goalDifference": 0,
-          "points": 3,
-          "bio": "Atacante rápido e técnico. Especialista em aproveitar espaços.",
-          "stats": {
-            "winRate": "-",
-            "avgGoalsPerMatch": "-",
-            "avgGoalsAgainst": "-"
-          },
-          "bestMatches": []
-        },
-        {
-          "id": "player-11",
-          "position": 3,
           "name": "Papaleguas",
-          "division": 2,
-          "played": 2,
+          "played": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "goalsFor": 8,
-          "goalsAgainst": 7,
+          "losses": 2,
+          "goalsFor": 10,
+          "goalsAgainst": 10,
           "goalDifference": 0,
           "points": 3,
           "bio": "Atacante explosivo com potência impressionante. Sempre pronto para surpreender.",

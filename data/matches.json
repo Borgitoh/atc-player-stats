@@ -112,7 +112,8 @@
           "division": "2 DIVISÃO",
           "home": "Papaleguas (Napoli)",
           "away": "Fidel (Dortmund)",
-          "status": "scheduled"
+          "status": "finished",
+          "homeScore": "2-3"
         },
         {
           "id": 1,
